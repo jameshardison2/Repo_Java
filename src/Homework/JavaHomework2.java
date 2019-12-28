@@ -42,7 +42,7 @@ public class JavaHomework2 {
         System.out.println(questionThree);
 
         String [] names = {"mohammad", "John", "Ferdous", "Abdul", "Ratna", "Mareeha", "Ruslan", "Himani"};
-        System.out.println(names[1]);
+        System.out.println(names[1].equals("John"));
 
 
 
@@ -51,11 +51,12 @@ public class JavaHomework2 {
         System.out.println(questionFour);
 
         String[] colleagues = {"Kevin", "Doug", "Anwar", "Matt", "Marie"};
-        System.out.println(colleagues.length);
-        System.out.println(colleagues[2]);
-        for (String namePrintout : colleagues) {
-            System.out.println(namePrintout);
-        }
+        int numberOfColleagues = colleagues.length;
+        System.out.println(numberOfColleagues);
+        //System.out.println(colleagues[2]);
+        //for (String namePrintout : colleagues) {
+        //    System.out.println(namePrintout);
+        //}
 
         boolean startWithA = colleagues[1].startsWith("A");
         //System.out.println(startWithA);
