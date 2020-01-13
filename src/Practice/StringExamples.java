@@ -18,7 +18,9 @@ public class StringExamples {
         System.out.println(lowerCaseName);
 
         String upperCaseName = fullName.toUpperCase();
-        System.out.println(upperCaseName);
+        System.out.println(upperCaseName
+
+        );
 
 
 
